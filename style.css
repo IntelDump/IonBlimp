@@ -1,0 +1,80 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #ffffff;
+  margin: 40px;
+  text-align: center;
+}
+
+.logo-link {
+  text-decoration: none;
+}
+
+.logo-container {
+  display: inline-block;
+  text-align: center;
+}
+
+.logo-text {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  font-size: 2.5rem;
+  font-weight: 800;
+  gap: 0.10rem;
+}
+
+.word {
+  color: #000;
+}
+
+/* Diamonds */
+.diamond {
+  font-size: 1.2rem;
+  color: #000;
+  display: inline-block;
+  line-height: 1;
+}
+
+/* Custom stacked 'i' setup */
+.stacked-i {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	line-height: 0.9;
+	margin-bottom: 7px;
+	margin-top: 0px;
+}
+
+.lower-i {
+	font-size: 2.5rem;
+	font-weight: 800;
+	color: #000;
+	margin-top: -0.2rem;
+}
+
+/* Subtitle */
+.logo-subtext {
+	font-size: 0.9rem;
+	color: #555;
+	margin-top: -3px;
+	margin-left: -30px;
+}
+
+/* Underline */
+.logo-underline {
+	width: 240px;
+	height: 4px;
+	background: linear-gradient(to right, #a855f7, #3b82f6);
+	border-radius: 2px;
+	margin-top: -7px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 0;
+}
+
+/* Optional hover effect */
+.logo-link:hover .logo-underline {
+  opacity: 0.9;
+  transform: scaleX(1.05);
+  transition: all 0.3s ease;
+}
