@@ -82,7 +82,7 @@ body {
 .container {
   display: flex;
   flex-wrap: wrap;
-  min-height: 100vh;
+  min-height: 1000vh;
   margin: 0 auto;
   max-width: 1200px;
   text-align: left;
@@ -122,7 +122,7 @@ li {
 }
 
 iframe {
-  width: 600px;
+  width: 500px;
   aspect-ratio: 16 / 9;
   display: block;
   border: 1px solid #ccc;
@@ -133,5 +133,5 @@ img,
 
 .box.left {
   overflow-y: auto;
-  max-height: calc(3000vh - 180px); /* Leaves room for logo area */
+  max-height: calc(3000vh - 400px); /* Leaves room for logo area */
 }
