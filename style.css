@@ -129,12 +129,8 @@ iframe {
   border-radius: 8px;
 }
 img,
-video {
-  max-width: 100%;
-  height: auto;
-  border: 1px solid #ccc;
-  border-radius: 8px;
-}
+
+
 .box.left {
   overflow-y: auto;
   max-height: calc(300vh - 180px); /* Leaves room for logo area */
