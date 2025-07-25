@@ -1,10 +1,13 @@
+/* General Styles */
 body {
   font-family: Arial, sans-serif;
   background: #ffffff;
-  margin: 40px;
+  margin: 0;
   text-align: center;
+  color: #000;
 }
 
+/* Logo Styles */
 .logo-link {
   text-decoration: none;
 }
@@ -12,6 +15,7 @@ body {
 .logo-container {
   display: inline-block;
   text-align: center;
+  margin: 40px auto 20px auto;
 }
 
 .logo-text {
@@ -27,7 +31,6 @@ body {
   color: #000;
 }
 
-/* Diamonds */
 .diamond {
   font-size: 1.2rem;
   color: #000;
@@ -35,46 +38,104 @@ body {
   line-height: 1;
 }
 
-/* Custom stacked 'i' setup */
 .stacked-i {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	line-height: 0.9;
-	margin-bottom: 7px;
-	margin-top: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 0.9;
+  margin-bottom: 7px;
+  margin-top: 0px;
 }
 
 .lower-i {
-	font-size: 2.5rem;
-	font-weight: 800;
-	color: #000;
-	margin-top: -0.2rem;
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: #000;
+  margin-top: -0.2rem;
 }
 
-/* Subtitle */
 .logo-subtext {
-	font-size: 0.9rem;
-	color: #555;
-	margin-top: -3px;
-	margin-left: -30px;
+  font-size: 0.9rem;
+  color: #555;
+  margin-top: -3px;
+  margin-left: -30px;
 }
 
-/* Underline */
 .logo-underline {
-	width: 240px;
-	height: 4px;
-	background: linear-gradient(to right, #a855f7, #3b82f6);
-	border-radius: 2px;
-	margin-top: -7px;
-	margin-right: auto;
-	margin-left: auto;
-	margin-bottom: 0;
+  width: 240px;
+  height: 4px;
+  background: linear-gradient(to right, #a855f7, #3b82f6);
+  border-radius: 2px;
+  margin-top: -7px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 0;
 }
 
-/* Optional hover effect */
 .logo-link:hover .logo-underline {
   opacity: 0.9;
   transform: scaleX(1.05);
   transition: all 0.3s ease;
+}
+
+/* Two-Column Layout */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 100vh;
+  margin: 0 auto;
+  max-width: 1200px;
+  text-align: left;
+}
+
+.box {
+  flex: 1;
+  padding: 2rem;
+  box-sizing: border-box;
+  min-width: 300px;
+}
+
+.left {
+  background: #f6f8fa;
+  border-right: 2px solid #e0e0e0;
+}
+
+.right {
+  background: #ffffff;
+}
+
+h1 {
+  margin-top: 0;
+  color: #333;
+}
+
+p {
+  line-height: 1.7;
+}
+
+ul {
+  padding-left: 1.5rem;
+}
+
+li {
+  margin-bottom: 0.5rem;
+}
+
+iframe {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+img,
+video {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+.box.left {
+  overflow-y: auto;
+  max-height: calc(100vh - 180px); /* Leaves room for logo area */
 }
