@@ -32,7 +32,7 @@ body {
 }
 
 .diamond {
-  font-size: 1.0rem;
+  font-size: 1.2rem;
   color: #000;
   display: inline-block;
   line-height: 1;
@@ -82,7 +82,7 @@ body {
 .container {
 	display: flex;
 	flex-wrap: wrap;
-	min-height: 100%;
+	min-height: 360px;
 	margin: 0 auto;
 	max-width: 80%;
 	text-align: left;
@@ -123,6 +123,7 @@ li {
 
 iframe {
   width: 500px;
+	
   aspect-ratio: 16 / 9;
   display: block;
   border: 1px solid #ccc;
@@ -133,5 +134,5 @@ img,
 
 .box.left {
   overflow-y: auto;
-  max-height: calc(3000vh - 400px); /* Leaves room for logo area */
+  max-height: calc(100vh - 180px); /* Leaves room for logo area */
 }
