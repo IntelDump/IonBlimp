@@ -122,7 +122,7 @@ li {
 }
 
 iframe {
-  width: 100%;
+  width: 600px;
   aspect-ratio: 16 / 9;
   display: block;
   border: 1px solid #ccc;
@@ -133,5 +133,5 @@ img,
 
 .box.left {
   overflow-y: auto;
-  max-height: calc(300vh - 180px); /* Leaves room for logo area */
+  max-height: calc(3000vh - 180px); /* Leaves room for logo area */
 }
