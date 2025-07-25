@@ -137,5 +137,5 @@ video {
 }
 .box.left {
   overflow-y: auto;
-  max-height: calc(3000vh - 1800px); /* Leaves room for logo area */
+  max-height: calc(300vh - 1800px); /* Leaves room for logo area */
 }
