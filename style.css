@@ -32,7 +32,7 @@ body {
 }
 
 .diamond {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   color: #000;
   display: inline-block;
   line-height: 1;
@@ -137,5 +137,5 @@ video {
 }
 .box.left {
   overflow-y: auto;
-  max-height: calc(100vh - 180px); /* Leaves room for logo area */
+  max-height: calc(1000vh - 180px); /* Leaves room for logo area */
 }
