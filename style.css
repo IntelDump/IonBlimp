@@ -31,12 +31,27 @@ body {
 }
 
 .diamond {
-  font-size: 1.0rem;
-  color: #000;
-  display: inline-block;
-  line-height: 1;
+	font-size: 18.2px;
+	color: #000;
+	display: inline-block;
+	line-height: 10px;
 }
-
+.diamond0 {
+	font-size: 1rem;
+	color: #000;
+	display: inline-block;
+	line-height: 1.1;
+	padding-left: 2px;
+	padding-right: 2px;
+}
+.diamond1 {
+	font-size: 13px;
+	color: #000;
+	display: inline-block;
+	line-height: 1.1;
+	padding-left: 2px;
+	padding-right: 2px;
+}
 .stacked-i {
   display: flex;
   flex-direction: column;
@@ -61,14 +76,14 @@ body {
 }
 
 .logo-underline {
-  width: 240px;
-  height: 4px;
-  background: linear-gradient(to right, #a855f7, #3b82f6);
-  border-radius: 2px;
-  margin-top: -7px;
-  margin-right: auto;
-  margin-left: auto;
-  margin-bottom: 0;
+	width: 341px;
+	height: 4px;
+	background: linear-gradient(to right, #a855f7, #3b82f6);
+	border-radius: 2px;
+	margin-top: -7px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 0;
 }
 
 .logo-link:hover .logo-underline {
