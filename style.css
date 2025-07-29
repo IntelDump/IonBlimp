@@ -171,6 +171,7 @@ video {
 
 /* Letters default */
 .word {
+  will-change: transform;
   display: inline-block;
   color: black;
   animation: slideIn 0.6s ease forwards, waveEffect 0.5s ease-in-out infinite;
